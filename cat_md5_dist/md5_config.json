@@ -1,0 +1,205 @@
+{
+  "robot_ip": "192.168.9.",
+  "map_list": [
+    "map-KY-20200510-112401/map-KY-20200510-112401.mooe",
+    "map-KY-20200510-112401/path/path_one_way.txt",
+    "map-KY-20200510-112401/path/path_two_way.txt",
+    "map-KY-20200510-112401/path/position_number.txt"
+  ],  
+  "node_list": [
+    {
+      "name": "导航(move_base)",
+      "path": "/opt/ros/kinetic/lib/move_base/move_base"
+    },
+    {
+      "name": "导航(navfn)",
+      "path": "/opt/ros/kinetic/lib/navfn/navfn_node"
+    },
+    {
+      "name": "导航(multipath_management)",
+      "path": "/opt/ros/kinetic/lib/multipath/multipath_management_node"
+    },
+    {
+      "name": "导航(move_base_teb.xml)",
+      "path": "/opt/ros/kinetic/share/navigation_stage/move_base_config/move_base_teb.xml"
+    },
+    {
+      "name": "导航(navi_base.launch)",
+      "path": "/opt/ros/kinetic/share/navigation_stage/launch/navi_base.launch"
+    },
+    {
+      "name": "任务链(path_bridge)",
+      "path": "/opt/ros/kinetic/lib/path_bridge/path_bridge_node"
+    },
+    {
+      "name": "末端(go_ahead)",
+      "path": "/opt/ros/kinetic/lib/go_ahead/go_ahead_node"
+    },
+    {
+      "name": "调度通信(clientport)",
+      "path": "/opt/ros/kinetic/lib/webcomm/clientport.py"
+    },
+    {
+      "name": "调度通信(mqtt_ros_bridge)",
+      "path": "/opt/ros/kinetic/lib/webcomm/mqtt_ros_bridge"
+    },
+    {
+      "name": "谛听采集(topic_list)",
+      "path": "/opt/ros/server/topic_list.yaml"
+    },
+    {
+      "name": "入卡(go_underground)",
+      "path": "/opt/ros/kinetic/lib/go_underground/go_underground_f1_node"
+    },
+    {
+      "name": "入卡(go_underground.launch)",
+      "path": "/opt/ros/kinetic/share/go_underground/launch/go_underground.launch"
+    },
+    {
+      "name": "取货(mooe_palletaction)",
+      "path": "/opt/ros/kinetic/lib/mooe_palletaction/mooe_palletaction_node"
+    },
+    {
+      "name": "避障(pcl_convert)",
+      "path": "/opt/ros/kinetic/lib/obstacle_avoidance/pcl_convert_node"
+    },
+    {
+      "name": "避障(up_laser)",
+      "path": "/opt/ros/kinetic/lib/obstacle_avoidance/up_laser_node"
+    },
+    {
+      "name": "避障(obstacle_avoidance)",
+      "path": "/opt/ros/kinetic/lib/obstacle_avoidance/obstacle_avoidance_node"
+    },
+    {
+      "name": "避障(speed_control)",
+      "path": "/opt/ros/kinetic/lib/obstacle_avoidance/speed_control_node"
+    },
+    {
+      "name": "避障(trajectory_obs)",
+      "path": "/opt/ros/kinetic/lib/obstacle_avoidance/trajectory_obs_node"
+    },
+    {
+      "name": "避障(obstacle_avoidance.yaml)",
+      "path": "/opt/ros/kinetic/share/obstacle_avoidance/launch/obstacle_avoidance.yaml"
+    },
+    {
+      "name": "避障(obstacle_avoidance.launch)",
+      "path": "/opt/ros/kinetic/share/obstacle_avoidance/launch/obstacle_avoidance.launch"
+    },
+    {
+      "name": "系统自启(rc.local)",
+      "path": "/etc/rc.local"
+    },
+    {
+      "name": "导航(libmove_base.so)",
+      "path": "/opt/ros/kinetic/lib/libmove_base.so"
+    },
+    {
+     "name":"启动项(lets_run.launch)",
+     "path":"/opt/ros/kinetic/share/navigation_stage/launch/lets_run.launch"
+    },
+    {
+      "name": "自动清理(mooe_g2.sh)",
+      "path": "/opt/ros/kinetic/share/mooe_g2/scripts/mooe_g2.sh"
+    }
+  ],
+  "node_list_docker": [
+    {
+      "name": "导航(move_base)",
+      "path": "/home/muyi/mooe-core/lib/move_base/move_base"
+    },
+    {
+      "name": "导航(navfn)",
+      "path": "/home/muyi/mooe-core/lib/navfn/navfn_node"
+    },
+    {
+      "name": "导航(multipath_management)",
+      "path": "/home/muyi/mooe-core/lib/multipath/multipath_management_node"
+    },
+    {
+      "name": "导航(move_base_teb.xml)",
+      "path": "/home/muyi/mooe-core/share/navigation_stage/move_base_config/move_base_teb.xml"
+    },
+    {
+      "name": "导航(navi_base.launch)",
+      "path": "/home/muyi/mooe-core/share/navigation_stage/launch/navi_base.launch"
+    },
+    {
+      "name": "任务链(path_bridge)",
+      "path": "/home/muyi/mooe-core/lib/path_bridge/path_bridge_node"
+    },
+    {
+      "name": "末端(go_ahead)",
+      "path": "/home/muyi/mooe-core/lib/go_ahead/go_ahead_node"
+    },
+    {
+      "name": "调度通信(clientport)",
+      "path": "/home/muyi/mooe-core/lib/webcomm/clientport.py"
+    },
+    {
+      "name": "调度通信(mqtt_ros_bridge)",
+      "path": "/home/muyi/mooe-core/lib/webcomm/mqtt_ros_bridge"
+    },
+    {
+      "name": "谛听采集(topic_list)",
+      "path": "/mooe/server/topic_list.yaml"
+    },
+    {
+      "name": "入卡(go_underground)",
+      "path": "/home/muyi/mooe-core/lib/go_underground/go_underground_f1_node"
+    },
+    {
+      "name": "入卡(go_underground.launch)",
+      "path": "/home/muyi/mooe-core/share/go_underground/launch/go_underground.launch"
+    },
+    {
+      "name": "取货(mooe_palletaction)",
+      "path": "/home/muyi/mooe-core/lib/mooe_palletaction/mooe_palletaction_node"
+    },
+    {
+      "name": "避障(pcl_convert)",
+      "path": "/home/muyi/mooe-core/lib/obstacle_avoidance/pcl_convert_node"
+    },
+    {
+      "name": "避障(up_laser)",
+      "path": "/home/muyi/mooe-core/lib/obstacle_avoidance/up_laser_node"
+    },
+    {
+      "name": "避障(obstacle_avoidance)",
+      "path": "/home/muyi/mooe-core/lib/obstacle_avoidance/obstacle_avoidance_node"
+    },
+    {
+      "name": "避障(speed_control)",
+      "path": "/home/muyi/mooe-core/lib/obstacle_avoidance/speed_control_node"
+    },
+    {
+      "name": "避障(trajectory_obs)",
+      "path": "/home/muyi/mooe-core/lib/obstacle_avoidance/trajectory_obs_node"
+    },
+    {
+      "name": "避障(obstacle_avoidance.yaml)",
+      "path": "/home/muyi/mooe-core/share/obstacle_avoidance/launch/obstacle_avoidance.yaml"
+    },
+    {
+      "name": "避障(obstacle_avoidance.launch)",
+      "path": "/home/muyi/mooe-core/share/obstacle_avoidance/launch/obstacle_avoidance.launch"
+    },
+    {
+      "name": "系统自启(rc.local)",
+      "path": "/etc/rc.local"
+    },
+    {
+      "name": "导航(libmove_base.so)",
+      "path": "/home/muyi/mooe-core/lib/libmove_base.so"
+    },
+    {
+      "name":"启动项(lets_run.launch)",
+      "path":"/home/muyi/mooe-core/share/navigation_stage/launch/lets_run.launch"
+    },
+    {
+      "name": "自动清理(mooe_g2.sh)",
+      "path": "/home/muyi/mooe-core/share/mooe_g2/scripts/mooe_g2.sh"
+    }
+  ]
+}
